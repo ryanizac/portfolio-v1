@@ -1,0 +1,156 @@
+@font-face {
+    font-family: openSans;
+    src: url(OpenSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: openSansMedium;
+    src: url(OpenSans-Medium.ttf);
+}
+
+@font-face {
+    font-family: openSansBold;
+    src: url(OpenSans-Bold.ttf);
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+:root {
+    --black: #000814;
+    --maxWidth: 543px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    background: var(--black);
+    color: white;
+    font-family: openSans;
+    font-size: 20px;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+    padding: 100px 0;
+}
+
+.container {
+    width: var(--maxWidth);
+    display: flex;
+    flex-direction: column;
+    row-gap: 60px;
+}
+
+/* header */
+header {
+    display: grid;
+    grid-template-columns: 160px 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 32px;
+}
+
+header img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+}
+
+header h1 {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    align-self: end;
+}
+
+header p {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+
+/* section one */
+section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.firstSection {}
+
+.title {
+    font-family: openSansBold;
+}
+
+p {
+    font-family: openSansMedium;
+    font-size: 19px;
+}
+
+.btLink {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 160px;
+    border-radius: 20px;
+    font-family: openSansBold;
+}
+
+.btWhite {
+    background: white;
+    color: var(--black);
+}
+
+.btBlack {
+    background: var(--black);
+    color: white;
+    border: 2px solid white;
+}
+
+/* second section */
+.secondSection {}
+
+.card {
+    width: 100%;
+    height: 60px;
+    background: white;
+    color: var(--black);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+    font-family: openSansBold;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.card img{
+    max-height: 80%;
+}
