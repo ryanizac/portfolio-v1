@@ -1,3 +1,4 @@
+const env = require('./setEnv.js');
 const express = require('express');
 const routes = require('./routes.js');
 

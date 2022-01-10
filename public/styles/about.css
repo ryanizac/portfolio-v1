@@ -1,0 +1,82 @@
+/* first section */
+.firstSection .title {
+    font-size: 32px;
+}
+
+/* second section */
+.secondSection {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
+
+.career>.title {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.career .content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+/* third section */
+.thirdSection {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.thirdSection .title {
+    margin-bottom: 20px;
+}
+
+.thirdSection .column {
+    display: flex;
+    flex-direction: column;
+}
+
+.thirdSection .column .content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.square {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 20px;
+    height: 60px;
+    width: 100%;
+    background: white;
+    color: var(--black);
+}
+
+/* fourth section */
+.fourthSection {
+    row-gap: 40px;
+}
+
+.thought {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.thought p {
+    font-family: openSans;
+}
+
+/* footer */
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+footer>* {
+    font-size: 16px;
+}
