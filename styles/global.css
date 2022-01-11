@@ -1,16 +1,16 @@
 @font-face {
     font-family: openSans;
-    src: url(../OpenSans-Regular.ttf);
+    src: url(../font/OpenSans-Regular.ttf);
 }
 
 @font-face {
     font-family: openSansMedium;
-    src: url(../OpenSans-Medium.ttf);
+    src: url(../font/OpenSans-Medium.ttf);
 }
 
 @font-face {
     font-family: openSansBold;
-    src: url(../OpenSans-Bold.ttf);
+    src: url(../font/OpenSans-Bold.ttf);
 }
 
 /* width */
