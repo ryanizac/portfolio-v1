@@ -67,16 +67,3 @@
 .thought p {
     font-family: openSans;
 }
-
-/* footer */
-footer {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-}
-
-footer>* {
-    font-size: 16px;
-}
